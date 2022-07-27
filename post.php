@@ -128,7 +128,7 @@ VALUES ( '$title','$str', '$content' , '$image' , '$video_url' , '$date_publishe
 
 
 if ($conn->query($sql) === TRUE) {
-   header("Location:https://projects.balikgstudio.eu/forum/");  //header( "refresh:5;url=wherever.php" );
+   header("Location:somewhere.com");  //header( "refresh:5;url=wherever.php" );
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
